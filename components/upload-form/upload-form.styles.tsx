@@ -56,33 +56,3 @@ export const FileUpload = styled.div`
     cursor: pointer;
   }
 `;
-
-const btn = css`
-  width: 100%;
-  padding: 1rem;
-  border-radius: 10px;
-  border: 1px solid #f55252;
-  background: #f55252;
-  margin-top: 1rem;
-  color: #ffffff;
-  transition: all 0.6s;
-`;
-
-export const UploadButton = styled.button`
-  ${btn}
-  cursor: pointer;
-
-  @media (hover: hover) {
-    &:hover {
-      opacity: 0.8;
-    }
-  }
-`;
-
-export const DownloadButton = styled(Link)`
-  display: block;
-  text-align: center;
-  ${btn}
-  background-color: #38a3f7;
-  border: 1px solid #38a3f7;
-`;
