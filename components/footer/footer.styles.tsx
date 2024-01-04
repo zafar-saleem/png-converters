@@ -18,4 +18,11 @@ export const Footer = styled.footer`
       }
     }
   }
+
+  @media screen and (max-width: ${props => props.theme.breakpoints.m}) {
+    transform: rotate(0deg);
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 `;
